@@ -87,7 +87,7 @@ body {
 
 .conteudo__principal{
     position: relative;
-    top: 350px;
+    top: 300px;
     left: 510px;
     right: 510px;
     width: 854px;
@@ -95,11 +95,6 @@ body {
     box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
     border-radius: 5px;
     padding: 23px;
-}
-
-.conteudo__principal:hover {
-    transition: 1s;
-    box-shadow: 1px 0px 70px rgba(93, 93, 255, 0.05);
 }
 
 .conteudo__cabecalho {
@@ -135,7 +130,7 @@ body {
 
 .conteudo__principal--secundario {
     position: relative;
-    top: 400px;
+    top: 350px;
     left: 510px;
     right: 510px;
     width: 854px;
@@ -147,7 +142,7 @@ body {
 
 .conteudo__principal--terceiro {
     position: relative;
-    top: 450px;
+    top: 400px;
     left: 510px;
     right: 510px;
     width: 854px;
@@ -159,7 +154,7 @@ body {
 
 .conteudo__principal--quarto {
     position: relative;
-    top: 500px;
+    top: 450px;
     left: 510px;
     right: 510px;
     width: 854px;
@@ -167,4 +162,8 @@ body {
     box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
     border-radius: 5px;
     padding: 23px;
+}
+
+.conteudo_curtida {
+    cursor: pointer;
 }
